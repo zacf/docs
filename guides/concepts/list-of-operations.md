@@ -319,7 +319,7 @@ Possible errors:
 
 This operation runs inflation.
 
-Threshold: low
+Threshold: Low
 
 Result: `InflationResult`
 
@@ -337,14 +337,14 @@ Allows you to set,modify or delete a Data Entry (name/value pair) that is attach
 
 DataEntries can be used for application specific things. They are not used by the core Stellar protocol.
 
-Threshold: medium
+Threshold: Medium
 
 Result: `ManageDataResult`
 
 |Parameters| Type| Description|
 | --- | --- | --- |
 |Name| string | String up to 64 bytes long. If this is a new Name it will add the given name/value pair to the account. If this Name is already present then the associated value will be modified.  |
-|Value| binary data | (optional) If not present then the exiting Name will be deleted. If present then this value will be set in the DataEntry  |
+|Value| binary data | (optional) If not present then the existing Name will be deleted. If present then this value will be set in the DataEntry  |
 
 Possible errors:
 
